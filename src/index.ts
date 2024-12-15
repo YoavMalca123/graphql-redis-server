@@ -4,7 +4,6 @@ import { buildSchema } from 'graphql';
 import Redis from 'ioredis';
 
 // Initialize Redis
-const testgit=0;
 const redis = new Redis(); // Defaults to localhost:6379
 
 // Define GraphQL schema
