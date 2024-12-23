@@ -3,6 +3,7 @@ import { graphqlHTTP } from 'express-graphql';
 import { buildSchema } from 'graphql';
 import Redis from 'ioredis';
 
+const gittest = 0;
 // Initialize Redis
 const redis = new Redis(); // Defaults to localhost:6379
 
