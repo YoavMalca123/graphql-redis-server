@@ -56,8 +56,6 @@ const root = {
   },
 };
 
-
-
 // Create an Express server and a GraphQL endpoint
 const app = express();
 app.use(
